@@ -17,5 +17,6 @@
 sed -i 's/#src-git helloworld/src-git helloworld/g' feeds.conf.default
 sed -i '1i src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' feeds.conf.default
 sed -i '2i src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
-sed -i '3i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '4i src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '3i src-git passwall2_luci https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
+sed -i '4i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '5i src-git small https://github.com/kenzok8/small' feeds.conf.default
